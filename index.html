@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An educational disaster preparedness guide for households.">
+  <title>Community Preparedness Guide</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <p class="eyebrow">HOUSEHOLD SAFETY • EDUCATIONAL GUIDE</p>
+      <h1>Community Preparedness Guide</h1>
+      <p class="intro">A simple guide for Marinduque households. Small steps today can help your household prepare for emergencies.</p>
+      <p class="notice"><strong>Reminder:</strong> This page contains general educational information, not live alerts. Follow official local authorities for current instructions.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel" aria-labelledby="checklist-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FEATURE 1</p>
+          <h2 id="checklist-title">Preparedness Checklist</h2>
+        </div>
+        <span id="progress-text" class="progress-text">0 of 6 completed</span>
+      </div>
+      <p>Check an item after your household completes that step.</p>
+      <div class="progress-track" role="progressbar" aria-label="Checklist progress" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0" id="progress-bar">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+      <ul class="checklist">
+        <li><label><input type="checkbox" class="task-check"> <span>Write down emergency contacts and share the list with household members.</span></label></li>
+        <li><label><input type="checkbox" class="task-check"> <span>Choose a meeting place in case household members get separated.</span></label></li>
+        <li><label><input type="checkbox" class="task-check"> <span>Store copies of important documents in a protected, easy-to-carry place.</span></label></li>
+        <li><label><input type="checkbox" class="task-check"> <span>Check that your flashlight works and keep spare batteries nearby.</span></label></li>
+        <li><label><input type="checkbox" class="task-check"> <span>Set aside drinking water and non-perishable food for your household.</span></label></li>
+        <li><label><input type="checkbox" class="task-check"> <span>Discuss where to go and how to contact one another if you need to evacuate.</span></label></li>
+      </ul>
+      <button id="reset-button" class="button button-secondary" type="button">Reset checklist</button>
+      <p id="checklist-message" class="status-message" aria-live="polite"></p>
+    </section>
+
+    <section class="panel" aria-labelledby="kit-title">
+      <p class="eyebrow">FEATURE 2</p>
+      <h2 id="kit-title">Emergency Kit Guide</h2>
+      <p>Choose supplies that fit your household's needs and keep them together in an easy-to-carry place.</p>
+      <div class="kit-grid">
+        <article class="kit-item">
+          <span class="kit-icon" aria-hidden="true">💧</span>
+          <h3>Drinking water and food</h3>
+          <p>Water and non-perishable food can help meet basic needs if regular supplies are interrupted.</p>
+        </article>
+        <article class="kit-item">
+          <span class="kit-icon" aria-hidden="true">🔦</span>
+          <h3>Flashlight and batteries</h3>
+          <p>A working flashlight can provide light during a power outage. Keep spare batteries with it.</p>
+        </article>
+        <article class="kit-item">
+          <span class="kit-icon" aria-hidden="true">📄</span>
+          <h3>Important documents</h3>
+          <p>Protected copies can be easier to bring and refer to if you need to leave home.</p>
+        </article>
+        <article class="kit-item">
+          <span class="kit-icon" aria-hidden="true">🧼</span>
+          <h3>First-aid and personal supplies</h3>
+          <p>Basic first-aid, hygiene, and needed personal items can help your household manage while away.</p>
+        </article>
+        <article class="kit-item">
+          <span class="kit-icon" aria-hidden="true">📻</span>
+          <h3>Battery-powered radio</h3>
+          <p>A radio may help you hear official updates if phone or internet service is unavailable.</p>
+        </article>
+        <article class="kit-item">
+          <span class="kit-icon" aria-hidden="true">🔋</span>
+          <h3>Charged power bank</h3>
+          <p>A charged power bank can help keep a mobile phone powered when outlets are unavailable.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="evacuation-title">
+      <p class="eyebrow">FEATURE 3</p>
+      <h2 id="evacuation-title">General Evacuation Reminders</h2>
+      <ul class="reminder-list">
+        <li>Follow official evacuation announcements and instructions from local authorities.</li>
+        <li>Learn the evacuation routes and centers designated by local authorities for your area.</li>
+        <li>When told to evacuate, take essential supplies and important documents if it is safe to do so.</li>
+        <li>Plan how to assist household members who may need support, when it is safe to help.</li>
+      </ul>
+      <p class="notice"><strong>Safety note:</strong> This guide does not provide real-time hazard information. Check official government and local disaster-management channels for current guidance.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Community Preparedness Guide • Educational demonstration prototype</p>
+    </div>
+  </footer>
+</body>
+</html>
